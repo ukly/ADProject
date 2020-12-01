@@ -34,7 +34,7 @@ class calenDiary(QWidget):
 
         deadlineLabel = QLabel("마감날짜")                            #할일에 대한 정보들을 입력하는 layout
         self.dueDate = QLineEdit()
-        dateInfoLabel = QLabel("ㄴ YYYYY.MM.DD 형식으로 입력해주세요")
+        dateInfoLabel = QLabel("ㄴ YYYY.MM.DD 형식으로 입력해주세요")
         deadLineTimeLabel = QLabel("마감시간")
         self.dueTime = QLineEdit()
         timeInfoLabel = QLabel("ㄴ hour:minute 형식으로 입력해주세요")
